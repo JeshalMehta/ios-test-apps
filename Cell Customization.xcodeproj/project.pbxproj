@@ -15,6 +15,13 @@
 		127271641D509956009BB019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127271621D509956009BB019 /* LaunchScreen.storyboard */; };
 		1272716F1D509956009BB019 /* Cell_CustomizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1272716E1D509956009BB019 /* Cell_CustomizationTests.swift */; };
 		1272717A1D509956009BB019 /* Cell_CustomizationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127271791D509956009BB019 /* Cell_CustomizationUITests.swift */; };
+		127271881D518BC1009BB019 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127271871D518BC1009BB019 /* Data.swift */; };
+		1272718A1D518EE8009BB019 /* bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 127271891D518EE8009BB019 /* bridge.jpg */; };
+		1272718C1D518EF6009BB019 /* mountain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1272718B1D518EF6009BB019 /* mountain.jpg */; };
+		1272718E1D518F77009BB019 /* snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1272718D1D518F77009BB019 /* snow.jpg */; };
+		127271901D518F7E009BB019 /* sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1272718F1D518F7E009BB019 /* sunset.jpg */; };
+		127271921D5192EA009BB019 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127271911D5192EA009BB019 /* PlacesTableViewController.swift */; };
+		127271941D51973B009BB019 /* PlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127271931D51973B009BB019 /* PlacesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		127271751D509956009BB019 /* Cell CustomizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell CustomizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		127271791D509956009BB019 /* Cell_CustomizationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_CustomizationUITests.swift; sourceTree = "<group>"; };
 		1272717B1D509956009BB019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		127271871D518BC1009BB019 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		127271891D518EE8009BB019 /* bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bridge.jpg; path = ../../bridge.jpg; sourceTree = "<group>"; };
+		1272718B1D518EF6009BB019 /* mountain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mountain.jpg; path = ../../mountain.jpg; sourceTree = "<group>"; };
+		1272718D1D518F77009BB019 /* snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snow.jpg; path = ../../snow.jpg; sourceTree = "<group>"; };
+		1272718F1D518F7E009BB019 /* sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sunset.jpg; path = ../../sunset.jpg; sourceTree = "<group>"; };
+		127271911D5192EA009BB019 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
+		127271931D51973B009BB019 /* PlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +116,17 @@
 				127271561D509956009BB019 /* AppDelegate.swift */,
 				127271581D509956009BB019 /* ViewController.swift */,
 				1272715A1D509956009BB019 /* Main.storyboard */,
+				127271871D518BC1009BB019 /* Data.swift */,
+				1272718F1D518F7E009BB019 /* sunset.jpg */,
+				1272718D1D518F77009BB019 /* snow.jpg */,
+				1272718B1D518EF6009BB019 /* mountain.jpg */,
+				127271891D518EE8009BB019 /* bridge.jpg */,
 				127271601D509956009BB019 /* Assets.xcassets */,
 				127271621D509956009BB019 /* LaunchScreen.storyboard */,
 				127271651D509956009BB019 /* Info.plist */,
 				1272715D1D509956009BB019 /* Cell_Customization.xcdatamodeld */,
+				127271911D5192EA009BB019 /* PlacesTableViewController.swift */,
+				127271931D51973B009BB019 /* PlacesTableViewCell.swift */,
 			);
 			path = "Cell Customization";
 			sourceTree = "<group>";
@@ -233,7 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				127271641D509956009BB019 /* LaunchScreen.storyboard in Resources */,
+				1272718C1D518EF6009BB019 /* mountain.jpg in Resources */,
 				127271611D509956009BB019 /* Assets.xcassets in Resources */,
+				127271901D518F7E009BB019 /* sunset.jpg in Resources */,
+				1272718A1D518EE8009BB019 /* bridge.jpg in Resources */,
+				1272718E1D518F77009BB019 /* snow.jpg in Resources */,
 				1272715C1D509956009BB019 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +287,9 @@
 				127271591D509956009BB019 /* ViewController.swift in Sources */,
 				127271571D509956009BB019 /* AppDelegate.swift in Sources */,
 				1272715F1D509956009BB019 /* Cell_Customization.xcdatamodeld in Sources */,
+				127271881D518BC1009BB019 /* Data.swift in Sources */,
+				127271921D5192EA009BB019 /* PlacesTableViewController.swift in Sources */,
+				127271941D51973B009BB019 /* PlacesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
